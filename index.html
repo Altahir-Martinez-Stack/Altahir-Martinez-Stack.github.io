@@ -1,174 +1,177 @@
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>portfolio</title>
-  <link rel="stylesheet" href="css/styles.css" />
-  <link
-    rel="stylesheet"
-    href="https://use.fontawesome.com/releases/v6.1.1/css/all.css"
-  />
-</head>
-<body>
-  <div class="wrapper">
-    <header>
-      <nav class="navbar">
-        <div class="brand">
-          <h2>A<span>M</span></h2>
-        </div>
-        <ul class="menu">
-          <li><a href="#" class="active">Inicio</a></li>
-          <li><a href="#about">Quien Soy</a></li>
-          <li><a href="#portfolio">Portafolio</a></li>
-          <li><a href="#contact">Contacto</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main class="main">
-      <div class="info-content">
-        <div class="info-conten-effect">
-          <h1>I'm Altahir Martinez</h1>
-        </div>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt
-          facilis minima eveniet accusamus rem sint doloribus quia eligendi
-          expedita optio, dolore quo ipsa atque. Expedita doloremque deleniti
-          alias iste quia?
-        </p>
-        <a download href="./file/CV Altahir.pdf"
-          ><button class="download-cv">Download CV</button></a
-        >
-      </div>
-      <img src="./img/imgHome.png" alt="" />
-    </main>
-  </div>
-  <section id="about">
-    <div class="about">
-      <img src="./img/imgAbout.png" alt="" />
-      <div class="about-info">
-        <h2>About me</h2>
-        <div class="divider"></div>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores id
-          cumque asperiores fugit, quis repudiandae accusamus quisquam modi
-          numquam laudantium fugiat enim eum pariatur amet illum recusandae
-          debitis reprehenderit sed?
-        </p>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores id
-          cumque asperiores fugit, quis repudiandae accusamus quisquam modi
-          numquam laudantium fugiat enim eum pariatur amet illum recusandae
-          debitis reprehenderit sed?
-        </p>
-        <button class="download-cv">Read more</button>
-      </div>
-    </div>
-  </section>
-  <section id="portfolio">
-    <div class="portfolio">
-      <div class="portfolio-heading">
-        <h2>My Portfolio</h2>
-        <div class="divider"></div>
-      </div>
-      <div class="container">
-        <!-- project card -->
-        <div class="card">
-          <div class="card__img"></div>
-          <div class="card__title">
-            <h2>Project Description</h2>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portfolio</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v6.1.1/css/all.css"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <nav class="navbar">
+          <div class="brand">
+            <h2>A<span>M</span></h2>
           </div>
-          <div class="card__proyect-links">
-            <a href="#">
-              <i class="fab fa-github"></i>
-            </a>
-            <a href="">
-              <i class="fas fa-globe-asia"></i>
-            </a>
-            <a href="">
-              <i class="fas fa-code"></i>
-            </a>
+          <ul class="menu">
+            <li><a href="#" class="active">Inicio</a></li>
+            <li><a href="#about">Quien Soy</a></li>
+            <li><a href="#portfolio">Portafolio</a></li>
+            <li><a href="#contact">Contacto</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main class="main">
+        <div class="info-content">
+          <div class="info-conten-effect">
+            <h1>I'm Altahir Martinez</h1>
           </div>
-          <div class="button-content">
-            <button class="project-details-button download-cv">
-              <a href="#">Project Details</a>
-            </button>
-          </div>
-        </div>
-        <!-- end project card -->
-      </div>
-    </div>
-  </section>
-  <section id="contact">
-    <div class="contact-section">
-      <div class="contact-heading">
-        <h2>Keep in touch</h2>
-        <div class="divider"></div>
-      </div>
-      <div class="container-contact">
-        <img src="./img/imgContact.png" alt="" />
-        <div class="contact-form">
-          <h4>Send me a message...</h4>
-          <form
-            class="form-group"
-            action="https://formsubmit.co/0c6e85489bada0219fa6d3365caf7f9d"
-            method="POST"
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt
+            facilis minima eveniet accusamus rem sint doloribus quia eligendi
+            expedita optio, dolore quo ipsa atque. Expedita doloremque deleniti
+            alias iste quia?
+          </p>
+          <a download href="./file/CV Altahir.pdf"
+            ><button class="download-cv">Download CV</button></a
           >
-            <input
-              type="text"
-              placeholder="Name"
-              class="input"
-              name="name"
-              required
-            />
-            <input
-              type="hidden"
-              placeholder="Subject"
-              class="input"
-              name="subject"
-              value="Trabajo"
-            />
-            <input
-              type="email"
-              placeholder="Email"
-              class="input"
-              name="email"
-              required
-            />
-            <textarea
-              name="coments"
-              placeholder="Place your message here..."
-              required
-            ></textarea>
-            <button type="submit" class="btn-submit">Send message</button>
-
-            <input type="hidden" name="_captcha" value="false" />
-            <input
-              type="hidden"
-              name="_next"
-              value="https://altahir-martinez-stack.github.io"
-            />
-            <input type="hidden" name="_template" value="table" />
-          </form>
+        </div>
+        <img src="./img/imgHome.png" alt="" />
+      </main>
+    </div>
+    <section id="about">
+      <div class="about">
+        <img src="./img/imgAbout.png" alt="" />
+        <div class="about-info">
+          <h2>About me</h2>
+          <div class="divider"></div>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores id
+            cumque asperiores fugit, quis repudiandae accusamus quisquam modi
+            numquam laudantium fugiat enim eum pariatur amet illum recusandae
+            debitis reprehenderit sed?
+          </p>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores id
+            cumque asperiores fugit, quis repudiandae accusamus quisquam modi
+            numquam laudantium fugiat enim eum pariatur amet illum recusandae
+            debitis reprehenderit sed?
+          </p>
+          <button class="download-cv">Read more</button>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+    <section id="portfolio">
+      <div class="portfolio">
+        <div class="portfolio-heading">
+          <h2>My Portfolio</h2>
+          <div class="divider"></div>
+        </div>
+        <div class="container">
+          <!-- project card -->
+          <div class="card">
+            <div class="card__img"></div>
+            <div class="card__title">
+              <h2>Project Description</h2>
+            </div>
+            <div class="card__proyect-links">
+              <a href="#">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="">
+                <i class="fas fa-globe-asia"></i>
+              </a>
+              <a href="">
+                <i class="fas fa-code"></i>
+              </a>
+            </div>
+            <div class="button-content">
+              <button class="project-details-button download-cv">
+                <a href="#">Project Details</a>
+              </button>
+            </div>
+          </div>
+          <!-- end project card -->
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="contact-section">
+        <div class="contact-heading">
+          <h2>Keep in touch</h2>
+          <div class="divider"></div>
+        </div>
+        <div class="container-contact">
+          <img src="./img/imgContact.png" alt="" />
+          <div class="contact-form">
+            <h4>Send me a message...</h4>
+            <form
+              class="form-group"
+              action="https://formsubmit.co/0c6e85489bada0219fa6d3365caf7f9d"
+              method="POST"
+            >
+              <input
+                type="text"
+                placeholder="Name"
+                class="input"
+                name="name"
+                required
+              />
+              <input
+                type="hidden"
+                placeholder="Subject"
+                class="input"
+                name="subject"
+                value="Trabajo"
+              />
+              <input
+                type="email"
+                placeholder="Email"
+                class="input"
+                name="email"
+                required
+              />
+              <textarea
+                name="coments"
+                placeholder="Place your message here..."
+                required
+              ></textarea>
+              <button type="submit" class="btn-submit">Send message</button>
 
-  <footer class="footer">
-    <div class="footer-content">
-      <h2>Altahir Martinez</h2>
-      <h5>Backend Developer</h5>
-    </div>
-    <div class="sotial-networks">
-      <a href="https://github.com/Altahir-Martinez-Stack" target="_blank">
-        <i class="fab fa-github"></i>
-      </a>
-      <a
-        href="https://www.linkedin.com/in/altahir-martinez-fullstack/"
-        target="_blank"
-      >
-        <i class="fab fa-linkedin"></i>
-      </a>
-    </div>
-  </footer>
-</body>
+              <input type="hidden" name="_captcha" value="false" />
+              <input
+                type="hidden"
+                name="_next"
+                value="https://altahir-martinez-stack.github.io"
+              />
+              <input type="hidden" name="_template" value="table" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <h2>Altahir Martinez</h2>
+        <h5>Backend Developer</h5>
+      </div>
+      <div class="sotial-networks">
+        <a href="https://github.com/Altahir-Martinez-Stack" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/altahir-martinez-fullstack/"
+          target="_blank"
+        >
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
